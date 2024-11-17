@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Josefin Sans, sans-serif;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+p,
+p {
+  color: rgba(68, 99, 129, 1);
+}
+
+body {
+  background: #f8dfd3;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin-inline: auto;
+}
+
+#header {
+  padding-block: 35px;
+}
+
+nav a {
+  color: rgba(68, 99, 129, 1);
+}
+.main-text h1 {
+  color: rgba(235, 131, 130, 1);
+}
+
+nav {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-text h4 {
+  color: rgba(68, 99, 129, 1);
+}
+
+nav button {
+  max-width: 190px;
+  height: 35px;
+  background: linear-gradient(94.66deg, #4499d9 17.46%, #7367be 87.77%);
+  border-radius: 15px;
+  border: none;
+  color: #fff;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-text h1 {
+  font-size: clamp(1rem, 0.727rem + 1.36vw, 1.75rem);
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.main-text span {
+  color: rgb(12, 113, 91);
+}
+
+.main-text button {
+  max-width: 190px;
+  height: 35px;
+  background: linear-gradient(94.66deg, #4499d9 17.46%, #7367be 87.77%);
+  border-radius: 15px;
+  border: none;
+  color: #fff;
+}
+
+.main-text p {
+  max-width: 450px;
+}
+
+.main {
+  position: relative;
+}
+
+.img {
+  position: absolute;
+  left: 650px;
+  bottom: 425px;
+}
+
+.img1 {
+  position: absolute;
+  left: 1100px;
+  top: 500px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info-text {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: flex-start;
+}
+
+.info-text h1 {
+  color: rgba(235, 131, 130, 1);
+  font-size: clamp(1rem, 0.727rem + 1.36vw, 1.75rem);
+}
+
+.info-text h4 {
+  color: rgba(68, 99, 129, 1);
+}
+
+.info-text p {
+  max-width: 450px;
+}
+.info-text button {
+  max-width: 220px;
+  height: 35px;
+  background: linear-gradient(94.66deg, #4499d9 17.46%, #7367be 87.77%);
+  border-radius: 15px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.sub {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sub-text {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: flex-start;
+}
+
+.sub-text p {
+  max-width: 450px;
+}
+
+.sub-text h1 {
+  color: rgba(235, 131, 130, 1);
+  font-size: clamp(1rem, 0.727rem + 1.36vw, 1.75rem);
+}
+
+.sub-text button {
+  max-width: 220px;
+  height: 35px;
+  background: linear-gradient(94.66deg, #4499d9 17.46%, #7367be 87.77%);
+  border-radius: 15px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.plan-title {
+  text-align: center;
+}
+
+.plan-title h1 {
+  color: rgba(235, 131, 130, 1);
+  font-size: clamp(1rem, 0.727rem + 1.36vw, 1.75rem);
+  margin-top: 15px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.box {
+  align-items: flex-start;
+  margin-inline: 20px;
+  padding-block: 30px;
+}
+
+.box h3 {
+  margin-inline: 15px;
+}
+
+.box {
+  max-width: 300px;
+  width: 100%;
+  height: 400px;
+  background: rgba(251, 218, 207, 1);
+  border-radius: 20px;
+}
+
+.plan-text {
+  display: flex;
+  gap: 15px;
+  margin-inline: 20px;
+  color: rgba(235, 131, 130, 1);
+}
+
+.plan-text span {
+  font-size: 15px;
+}
+
+nav ul a {
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+nav ul li {
+  margin-inline: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.box button {
+  margin-inline: 20px;
+  max-width: 220px;
+  height: 30px;
+  background: linear-gradient(94.66deg, #4499d9 17.46%, #7367be 87.77%);
+  border-radius: 15px;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+}
+
+.plan {
+  display: flex;
+  justify-content: space-around;
+}
+
+.plan :hover {
+  transform: 1.5s;
+  background: rgba(9, 20, 60, 1);
+  transition: 1s ease;
+}
+
+footer {
+  border: 1px solid;
+  margin-bottom: 25px;
+}
+
+#footer {
+  padding-block: 25px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+}
